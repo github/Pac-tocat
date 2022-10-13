@@ -13,5 +13,8 @@
         }
     },
     "onCreateCommand": "npm install",
-    "postAttachCommand": "npm run serve"
+    "postAttachCommand": {
+        "server": "npm run serve",
+        "watcher": "gulp watch"
+      }
 }
