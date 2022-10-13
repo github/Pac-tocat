@@ -12,5 +12,6 @@
             ]
         }
     },
+    "onCreateCommand": "npm install",
     "postAttachCommand": "npm run serve"
 }
