@@ -8,9 +8,9 @@
     "customizations": {
         "codespaces": {
             "openFiles": [
-                "src/app.js"
+                "build/app.js"
             ]
         }
     },
-    "postAttachCommand": "npm install && npm run serve"
+    "postAttachCommand": "npm run serve"
 }
