@@ -1,6 +1,6 @@
 {
     "portsAttributes": {
-        "8080": {
+        "3000": {
             "label": "Application",
             "onAutoForward": "openPreview"
         }
