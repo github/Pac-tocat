@@ -12,7 +12,7 @@
             ]
         }
     },
-    "onCreateCommand": "npm install",
+    "onCreateCommand": "npm install & npm install -g gulp",
     "postAttachCommand": {
         "server": "npm run serve",
         "watcher": "gulp watch"
