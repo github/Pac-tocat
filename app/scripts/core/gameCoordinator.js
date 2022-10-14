@@ -708,6 +708,7 @@ class GameCoordinator {
     window.addEventListener('addTimer', this.addTimer.bind(this));
     window.addEventListener('removeTimer', this.removeTimer.bind(this));
     window.addEventListener('releaseGhost', this.releaseGhost.bind(this));
+    this.registerResizeListener();
 
     const directions = ['up', 'down', 'left', 'right'];
 
@@ -717,6 +718,22 @@ class GameCoordinator {
         .addEventListener('touchstart', () => {
           this.changeDirection(direction);
         });
+    });
+  }
+
+  registerResizeListener() {
+    let timer = null;
+    window.addEventListener('resize', () => {
+      if (timer) {
+        clearTimeout(timer);
+        timer = null;
+      }
+
+      timer = setTimeout(() => {
+        if (this.scale !== this.determineScale(1)) {
+          window.location.reload();
+        }
+      }, 100);
     });
   }
 
