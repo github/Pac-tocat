@@ -8,7 +8,7 @@
     "customizations": {
         "codespaces": {
             "openFiles": [
-                "build/app.js"
+                "app/scripts/core/gameCoordinator.js"
             ]
         }
     },
