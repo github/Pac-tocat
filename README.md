@@ -1,10 +1,10 @@
 # Pac-tocat
 [![Code Style](https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg)](https://github.com/airbnb/javascript)
 
-Play Pac-Man starring[Mona](https://github.com/monatheoctocat), the loveable GitHub mascot using Javascript, HTML, and CSS. Forked from [bward2/pacman-js](https://github.com/bward2/pacman-js) 🙌
+🕹Play Pac-Man starring [Mona](https://github.com/monatheoctocat), the loveable GitHub mascot using Javascript, HTML, and CSS. 
+🙌 Forked from [bward2/pacman-js](https://github.com/bward2/pacman-js) 
 
 ## Open in a Codespace
-(details to follow)
 
 ## Local Development Instructions
 
