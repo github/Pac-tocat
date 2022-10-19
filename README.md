@@ -1,20 +1,17 @@
-# pacman-js
-[![Build Status](https://travis-ci.com/bward2/pacman-js.svg?branch=master)](https://travis-ci.com/bward2/pacman-js)
-[![Coverage Status](https://coveralls.io/repos/github/bward2/pacman-js/badge.svg?branch=master)](https://coveralls.io/github/bward2/pacman-js?branch=master)
+# Pac-tocat
 [![Code Style](https://img.shields.io/badge/code%20style-airbnb-brightgreen.svg)](https://github.com/airbnb/javascript)
 
-Pacman clone made with Javascript, HTML, and CSS.
+Play Pac-Man starring[Mona](https://github.com/monatheoctocat), the loveable GitHub mascot using Javascript, HTML, and CSS. Forked from [bward2/pacman-js](https://github.com/bward2/pacman-js) 🙌
 
-### *__[Play it!](https://bward2.github.io/pacman-js/)__*
+## Open in a Codespace
+(details to follow)
 
-🍒🍓🍊🍎🍈👾🔔🔑
-
-## Development Instructions
+## Local Development Instructions
 
 This project makes use of *__[NodeJS](https://nodejs.org/en/)__*. Download it, then clone this repo and run the following commands:  
 1. `npm i` (Installs necessary packages for development)
 1. `gulp watch` (Watches changes to JS and SCSS files for continuous compilation)
-1. `npm run serve` (Hosts the files locally)
+1. `npx run serve` (Hosts the files locally)
 
 The game can now be accessed at *__http://127.0.0.1:8080/index__*
 
