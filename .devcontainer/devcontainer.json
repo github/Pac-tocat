@@ -1,6 +1,6 @@
 {
     "portsAttributes": {
-        "8080": {
+        "3000": {
             "label": "Application",
             "onAutoForward": "openPreview"
         }
@@ -8,13 +8,13 @@
     "customizations": {
         "codespaces": {
             "openFiles": [
-                "build/app.js"
+                "app/scripts/core/gameCoordinator.js"
             ]
         }
     },
-    "onCreateCommand": "npm install & npm install -g gulp",
+    "onCreateCommand": "npm install",
     "postAttachCommand": {
         "server": "npm run serve",
-        "watcher": "gulp watch"
+        "watcher": "npx gulp watch"
       }
 }
