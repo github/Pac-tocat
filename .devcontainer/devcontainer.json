@@ -16,5 +16,6 @@
     "postAttachCommand": {
         "server": "npm run serve",
         "watcher": "npx gulp watch"
-      }
+    },
+    "hostRequirements": {"cpus": 4}
 }
