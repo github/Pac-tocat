@@ -9,7 +9,8 @@
     "test": "nyc --check-coverage --lines 100 --functions 100 --branches 100 mocha app/tests",
     "coverage": "nyc report --reporter=text-lcov | node ./node_modules/coveralls/bin/coveralls.js",
     "lint": "./node_modules/.bin/eslint .",
-    "serve": "npx serve -n"
+    "serve": "npx gulp && npx serve -n",
+    "watch": "npx gulp watch"
   },
   "husky": {
     "hooks": {
