@@ -15,7 +15,7 @@
     "onCreateCommand": "npm install",
     "postAttachCommand": {
         "server": "npm run serve",
-        "watcher": "npx run watch"
+        "watcher": "npm run watch"
     },
     "hostRequirements": {"cpus": 4}
 }
