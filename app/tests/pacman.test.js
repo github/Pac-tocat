@@ -85,7 +85,7 @@ describe('pacman', () => {
     it('sets various stats for pacman\'s sprite animation', () => {
       pacman.setSpriteAnimationStats();
 
-      assert.strictEqual(pacman.msBetweenSprites, 50);
+      assert.strictEqual(pacman.msBetweenSprites, 100);
       assert.strictEqual(pacman.msSinceLastSprite, 0);
       assert.strictEqual(pacman.spriteFrames, 4);
       assert.strictEqual(pacman.backgroundOffsetPixels, 0);
