@@ -5,7 +5,9 @@
 
 🙌 Forked from [bward2/pacman-js](https://github.com/bward2/pacman-js) 
 
-## Open in a Codespace
+<a href='https://codespaces.new/github/Pac-tocat?quickstart=1'><img src='https://github.com/codespaces/badge.svg' alt='Open in GitHub Codespaces' style='max-width: 100%;'></a>
+
+When opening the project in a codespace with supported editors, the project will be run by default via the [devcontainer's postAttach commands](https://github.com/github/Pac-tocat/blob/master/.devcontainer/devcontainer.json#L16).
 
 ## Local Development Instructions
 
