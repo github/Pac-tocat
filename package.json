@@ -23,7 +23,6 @@
     "npm": ">=6.14.6"
   },
   "devDependencies": {
-    "coveralls": "^3.0.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.17.2",
