@@ -21,3 +21,7 @@ The game can now be accessed at *__http://127.0.0.1:8080/index__*
 This project also utilizes *__[Husky](https://github.com/typicode/husky)__* to enforce best coding practices. The current thresholds are 0 linting errors upon commits (following Airbnb's standard), and 100% unit test code coverage upon pushes.
 
 Feel free to submit PRs and/or report any issues you find! 😃
+
+## How To Play
+
+Use the arrow keys to change the direction that Mona moves in. Try to eat all the dots in the maze without running into a ghost. Tap the space bar to speed up and the shift key to slow down. Flashing dots give you a brief chance to eat the ghosts!
