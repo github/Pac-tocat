@@ -755,6 +755,12 @@ class GameCoordinator {
     if (e.keyCode === 27) {
       // ESC key
       this.handlePauseKey();
+    } else if (e.keyCode === 32) {
+      // Space bar
+      this.pacman.speedUp();
+    } else if (e.keyCode === 16) {
+      // Shift key
+      this.pacman.slowDown();
     } else if (e.keyCode === 81) {
       // Q
       this.soundButtonClick();

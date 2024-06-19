@@ -33,6 +33,14 @@ class Pacman {
     this.moving = false;
   }
 
+  speedUp() {
+    this.velocityPerMs = this.velocityPerMs * 1.5
+  }
+
+  slowDown() {
+    this.velocityPerMs = this.velocityPerMs / 1.5
+  }
+
   /**
    * Sets values pertaining to Pacman's spritesheet animation
    */
