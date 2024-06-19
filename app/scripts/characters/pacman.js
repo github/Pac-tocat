@@ -28,17 +28,25 @@ class Pacman {
    */
   setMovementStats(scaledTileSize) {
     this.velocityPerMs = this.calculateVelocityPerMs(scaledTileSize);
+    this.minVelocityPerMs = this.velocityPerMs / 8
+    this.maxVelocityPerMs = this.velocityPerMs * 8
     this.desiredDirection = this.characterUtil.directions.left;
     this.direction = this.characterUtil.directions.left;
     this.moving = false;
   }
 
   speedUp() {
-    this.velocityPerMs = this.velocityPerMs * 1.5
+    this.velocityPerMs = Math.min(
+      this.velocityPerMs * 2,
+      this.maxVelocityPerMs,
+    )
   }
 
   slowDown() {
-    this.velocityPerMs = this.velocityPerMs / 1.5
+    this.velocityPerMs = Math.max(
+      this.velocityPerMs / 2,
+      this.minVelocityPerMs,
+    )
   }
 
   /**
